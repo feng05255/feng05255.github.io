@@ -1,0 +1,254 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #F2F2F2;
+	max-width: 15rem;
+	margin: 0 auto;
+	padding-bottom: 4rem;
+}
+a {
+	text-decoration: none;
+	display: block;
+}
+.jiantou {
+	width: 0.26rem;
+	height: 0.48rem;
+}
+.head {
+	background: #FF679A url('../1_gr_img/top.png')no-repeat;
+	background-size: cover;
+	height: 5rem;
+	display:-webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.he1 {
+	width: 3rem;
+	height: 3rem;
+	margin-left: 0.7rem;
+	background: url('../1_gr_img/tuoyuan.png')no-repeat;
+	background-size: 3rem 3rem;
+	display:-webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.he1 .hea {
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: url('../1_gr_img/logo.png')no-repeat;
+	background-size: 2.5rem 2.5rem;
+
+}
+.he2 {
+	width: 4rem;
+	margin-left: 0.5rem;
+}
+.he2 p {
+	font-size: 0.6rem;
+	color: #fff;
+}
+.he2 p:nth-child(1) {
+	margin-bottom: 0.2rem;
+}
+.he3 {
+	width: 7rem;
+	-webkit-align-self: flex-end;
+	align-self: flex-end;
+	margin-bottom: 0.3rem;
+	font-size: 0.6rem;
+	color: #fff;
+}
+.he3 .zhang{
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: url('../1_gr_img/logo2.png')no-repeat;
+	background-size: 0.6rem 0.6rem;
+	vertical-align: center;
+}
+.he3 a {
+	color: #fff;
+}
+
+.cont {
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);
+	display: -webkit-flex;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0.4rem 0;
+}
+.cont a {
+	-webkit-flex:1;
+	flex:1;
+} 
+.con p {
+	font-size: 0.6rem;
+	text-align: center;
+}
+.con p:nth-child(1) {
+	margin-bottom: 0.1rem;
+	color: #000;
+}
+.con p:nth-child(2) {
+	color: #ccc;
+}
+
+.ding {
+	margin-top: 0.5rem;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 0.5rem 0.7rem;
+}
+
+
+
+.din1 a {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: apace-between;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.danga {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.dang1 {
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url('../1_gr_img/dingdan.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.dang1 img{
+	width: 0.8rem;
+	height: 0.8rem;
+}
+.danga span{
+	display: block;
+	font-size: 0.6rem;
+	margin-left: 0.2rem;
+	color: #000;
+}
+.dang2{
+	color: #ccc;
+	font-size: 0.6rem;
+	font-family: simsun;
+}
+.din2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.8rem;
+	height: 1px;
+	background-color: #ccc;
+}
+
+.din3 {
+	display: -webkit-flex;
+	display: flex;
+}
+.fukuan {
+	height: 2rem;
+	-webkit-flex: 1;
+	flex:1;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items:center;
+	align-items:center;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+	position: relative;
+}
+.fukuan a{
+	display: block;
+	width: 100%;
+}
+.fukuan img {
+	width: 1rem;
+	height: 0.9rem;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.fukuan p {
+	font-size: 0.5rem;
+	color: #ccc;
+	text-align: center;
+}
+.fukuan .aa1 {
+	display: block;
+	width: 0.7rem;
+	height: 0.7rem;
+	background: url('../1_gr_img/pinjia2.png')no-repeat;
+	background-size: 0.7rem 0.7rem;
+	position: absolute;
+	right: 0.97rem;
+	top: -0.37rem;
+	line-height: 0.7rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.5rem;
+}
+.jifeng {
+	background: url('../1_gr_img/jifen.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+.youhui {
+	background: url('../1_gr_img/youhui.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+.fenxiao {
+	background: url('../1_gr_img/fenxiao.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+.dianpu {
+	background: url('../1_gr_img/dianpu.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+.wdfx {
+	background: url('../1_gr_img/wode.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+
+.wddp {
+	background: url('../1_gr_img/dianpua.png')no-repeat;
+	background-size: 1.2rem 1.2rem;
+}
+.foot a {
+	width: 100%;
+	text-align: center;
+}
+.foot a .pink {
+	color: #FF6699;
+}
+.foot {
+	padding: 0.2rem 0;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 15rem;
+	background-color: #fff;
+	display: -webkit-flex;
+    display: flex;
+}
+
+

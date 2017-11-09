@@ -1,0 +1,115 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  background: #F2F2F2;
+  padding-bottom: 5rem;
+}
+.box {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0.5rem 0.5rem;
+  background: #ffffff;
+}
+.box .left img {
+  width: 2.22rem;
+  height: 2.22rem;
+}
+.box .right {
+  margin-left: 0.3rem;
+}
+.box .right p:nth-child(2) {
+  margin-top: 0.3rem;
+}
+.box .right p:nth-child(2) span {
+  position: relative;
+  top: -0.2rem;
+  display: inline-block;
+}
+.box .right img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-left: 0.1rem;
+}
+.box .tian {
+  width: 2.22rem;
+  height: 2.22rem;
+  color: #ccc;
+  font-size: 0.43rem;
+  background: #f2f2f2;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+.box .tian img {
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  margin-bottom: 0.1rem;
+  display: block;
+  width: 1.04rem;
+  height: 0.88rem;
+}
+.box .jia {
+  margin-right: 0.5rem;
+}
+.box .jia img {
+  width: 2.22rem;
+  height: 2.22rem;
+}
+.txt {
+  padding: 0 0.5rem;
+  height: 3.4rem;
+  overflow: hidden;
+  background: #ffffff;
+}
+.txt textarea {
+  width: 14rem;
+  background: #f2f2f2;
+  border: none;
+  font-size: 0.6rem;
+  padding: 0.5rem;
+  outline: 0;
+  box-sizing: border-box;
+}
+.btn {
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: block;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  text-align: center;
+  box-sizing: border-box;
+  width: 9rem;
+  border: 0.02rem solid #ff679a;
+  color: #ff679a;
+  border-radius: 1rem;
+}

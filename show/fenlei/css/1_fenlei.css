@@ -1,0 +1,132 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: #000000;
+}
+.fenl {
+  padding: 0.8rem 0.3rem 0 0.3rem;
+  background: #ffffff;
+}
+.fenl .fen {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  padding-bottom: 0.5rem;
+}
+.fenl .fen li {
+  list-style: none;
+  width: 3.06rem;
+}
+.fenl .fen li a {
+  color: #000000;
+}
+.fenl .fen li a p {
+  text-align: center;
+  margin-top: 0.2rem;
+  color: #000000;
+}
+.fenl .fen li .f_img {
+  width: 3.06rem;
+  height: 3.6rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.fenl .fen li .f_img img {
+  margin: 0 auto;
+  max-width: 3.06rem;
+  max-height: 3.6rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 15rem;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+}
+.footer .foot {
+  padding: 0.2rem 0;
+  height: 2rem;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  position: relative;
+}
+.footer .foot a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #ccc;
+  position: relative;
+}
+.footer .foot a p {
+  font-size: 0.5rem;
+}
+.footer .foot a .pink {
+  color: #ff6699;
+}
+.footer .foot a .liang {
+  position: absolute;
+  right: 1.2rem;
+  top: 0.05rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: #ff6699;
+  color: #ffffff;
+  font-size: 0.4rem;
+}
+.footer .foot img {
+  width: 1rem;
+  height: 0.9rem;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  margin-bottom: 0.1rem;
+}

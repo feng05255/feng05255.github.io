@@ -1,0 +1,101 @@
+@gray:#F2F2F2;
+@white:#fff;
+@imgW_H:2.22rem;
+@pink:#FF679A;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 15rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+    background: #F2F2F2;
+    padding-bottom: 5rem;
+}
+.box {
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    background: @white;
+    .left img {
+            width: @imgW_H;
+            height: @imgW_H;
+        }
+    .right {
+        margin-left: 0.3rem;
+        p:nth-child(2) {
+            margin-top: 0.3rem;
+        }
+        p:nth-child(2) span {
+            position: relative;
+            top: -0.2rem;
+           display: inline-block;
+        }
+        img {
+            width: 0.8rem;
+            height: 0.8rem;
+            margin-left: 0.1rem;
+            
+        }
+    }
+    .tian {
+        width: @imgW_H;
+        height: @imgW_H;
+        color: #ccc;
+        font-size: 0.43rem;
+        background: @gray;
+        margin-right: 0.5rem;
+        text-align: center;
+        img {
+            margin: 0 auto;
+            margin-top: 0.4rem;
+            margin-bottom: 0.1rem;
+            display: block;
+            width: 1.04rem;
+            height: 0.88rem;
+        }
+    }
+    .jia {
+        margin-right: 0.5rem;
+        img {
+            width: @imgW_H;
+            height: @imgW_H;
+        }
+    }
+}
+
+.txt {
+    padding: 0 0.5rem;
+    height: 3.4rem;
+    overflow: hidden;
+    background: @white;
+    textarea {
+        width: 14rem;
+        background: @gray;
+        border: none;
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        outline: 0;
+        box-sizing:border-box;
+    }
+}
+
+.btn {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: block;
+    text-decoration: none;
+    padding: 0.3rem 0;
+    text-align: center;
+    box-sizing: border-box;
+    width: 9rem;
+    border: 0.02rem solid @pink;
+    color: @pink;
+    border-radius: 1rem;
+}
+
+

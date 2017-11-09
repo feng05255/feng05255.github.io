@@ -1,0 +1,80 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.yong {
+  padding: 0.5rem 0.4rem;
+  background: #ffffff;
+  border-bottom: 0.02rem solid #ccc;
+}
+.yong .yong_big {
+  display: -webkit-flex;
+  display: flex;
+}
+.yong .yong_big .yong_left {
+  width: 1.7rem;
+  height: 1.7rem;
+  background: url('../img/yongleft.png') no-repeat;
+  background-size: 1.7rem 1.7rem;
+  margin-right: 0.5rem;
+}
+.yong .yong_big .yong_right {
+  height: 1.7rem;
+  line-height: 1.7rem;
+}
+.yong .yong_txt {
+  margin-left: 2rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+.yong .yong_txt .riqi {
+  margin-top: 0.5rem;
+  color: #ccc;
+}
+.yong .yong_txt .p_img {
+  height: 2.08rem;
+  margin: 0.5rem 0.5rem 0 0;
+}
+.yong .yong_txt .p_img img {
+  width: 2.08rem;
+  height: 2.08rem;
+  margin-right: 0.5rem;
+}

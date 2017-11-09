@@ -1,0 +1,98 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  background: #F2F2F2;
+}
+.head {
+  height: 8rem;
+  margin-bottom: 0.7rem;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.head .big {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 0.05rem solid #F89C2F;
+  border-radius: 50%;
+  -webkit-align-self: center;
+  -align-self: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.head .big .small {
+  width: 4.3rem;
+  height: 4.3rem;
+  background-color: #F89C2F;
+  border-radius: 50%;
+  -webkit-align-self: center;
+  -align-self: center;
+  display: -webkit-flex;
+  display: flex;
+}
+.head .big .small .txt {
+  -webkit-align-self: center;
+  -align-self: center;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.head .big .small .txt p:nth-child(2) {
+  font-size: 1rem;
+}
+.main {
+  width: 93%;
+  margin: 0rem auto;
+  background-color: #fff;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  border-bottom: 0.02rem solid #ccc;
+}
+.main li span {
+  float: right;
+  font-size: 0.6rem;
+  color: #ccc;
+}
+.main li p:nth-child(2) {
+  color: #ccc;
+  margin-top: 0.2rem;
+}
+.no {
+  border-bottom: none;
+}

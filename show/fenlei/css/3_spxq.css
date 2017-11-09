@@ -1,0 +1,349 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.head {
+  width: 15rem;
+  height: 15.84rem;
+  background: url('../img/head.png') no-repeat;
+  background-size: 15rem 15.84rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.head .shouye {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #626b67 url('../img/shouyeb.png') no-repeat center center;
+  background-size: 0.88rem 0.88rem;
+}
+.h_txt {
+  padding: 0.5rem 0.4rem;
+  background: #ffffff;
+}
+.h_txt p span {
+  color: #ccc;
+}
+.h_txt p .pink {
+  color: #ff6699;
+}
+.h_txt p .big {
+  font-size: 0.85rem;
+}
+.h_txt p .gray {
+  text-decoration: line-through;
+}
+.h_txt p:nth-child(2) {
+  margin-top: 0.3rem;
+}
+.guige {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: #ffffff;
+  font-size: 0.7rem;
+  color: #000000;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.guige img {
+  width: 0.26rem;
+  height: 0.48rem;
+}
+.dianpu {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.4rem;
+  background: #ffffff;
+  display: -webkit-flex;
+  display: flex;
+}
+.dianpu .dian_left {
+  width: 2.4rem;
+  height: 2.85rem;
+  background: url('../img/dianleft.png') no-repeat;
+  background-size: 2.4rem 2.4rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  margin-right: 0.3rem;
+}
+.dianpu .dian_left .yellow {
+  -webkit-align-self: flex-end;
+  align-self: flex-end;
+  border-radius: 1rem 0 0 1rem;
+  background: #FABA1A;
+  padding: 0.1rem 0.1rem 0.1rem 0.4rem;
+  font-size: 0.55rem;
+  color: #ffffff;
+}
+.dianpu .dian_right {
+  -webkit-flex: 1;
+  flex: 1;
+  padding-top: 0.3rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.dianpu .dian_right .jinru p:nth-child(2) {
+  color: #ccc;
+  margin-top: 0.1rem;
+}
+.dianpu .dian_right .guanzhu a:nth-child(1) {
+  padding: 0.2rem 1.3rem;
+  border-radius: 1rem;
+  border: 0.05rem solid #ff6699;
+  color: #ff6699;
+}
+.dianpu .dian_right .guanzhu a:nth-child(2) {
+  margin-top: 0.3rem;
+  float: right;
+  color: #ccc;
+  border-bottom: 0.03rem solid #ccc;
+}
+.jixv {
+  color: #ccc;
+  padding: 0.7rem 0.4rem;
+  text-align: center;
+}
+.jixv:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 26%;
+  height: 0.03rem;
+  background: #ccc;
+  margin-right: 0.3rem;
+}
+.jixv:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 26%;
+  height: 0.03rem;
+  background: #ccc;
+  margin-left: 0.3rem;
+}
+.foot {
+  display: -webkit-flex;
+  display: flex;
+  max-width: 15rem;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.foot a {
+  height: 1.96rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.45rem;
+}
+.foot a:nth-child(1) {
+  width: 2rem;
+  background: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.25rem 0;
+}
+.foot a:nth-child(1) img {
+  display: block;
+  margin: 0 auto;
+  width: 0.84rem;
+  height: 0.8rem;
+  padding-bottom: 0.05rem;
+}
+.foot a:nth-child(2) {
+  width: 5.12rem;
+  background: #FD95B8;
+  text-align: center;
+  line-height: 1.96rem;
+  color: #ffffff;
+  font-size: 0.65rem;
+}
+.foot a:nth-child(3) {
+  width: 5.12rem;
+  background: #ff6699;
+  text-align: center;
+  line-height: 1.96rem;
+  color: #ffffff;
+  font-size: 0.65rem;
+}
+.foot a:nth-child(4) {
+  width: 2.8rem;
+  background: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.25rem 0;
+}
+.foot a:nth-child(4) img {
+  display: block;
+  margin: 0 auto;
+  width: 0.84rem;
+  height: 0.7rem;
+  padding-bottom: 0.05rem;
+}
+.ge {
+  background: #ffffff;
+  max-width: 15rem;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.ge .ge_head {
+  padding: 0.8rem 0.4rem;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+}
+.ge .ge_head .ge_img {
+  width: 4.82rem;
+  height: 4.82rem;
+  position: absolute;
+  left: 0.4rem;
+  top: -1.3rem;
+}
+.ge .ge_head .ge_img img {
+  width: 4.82rem;
+  height: 4.82rem;
+}
+.ge .ge_head .ge_txt {
+  margin-left: 5.3rem;
+}
+.ge .ge_head .ge_txt p:nth-child(1) {
+  color: #ff6699;
+}
+.ge .ge_head .ge_txt .big {
+  font-size: 0.8rem;
+}
+.ge .ge_head .ge_cha {
+  width: 0.68rem;
+  height: 0.68rem;
+  position: absolute;
+  right: 0.4rem;
+}
+.ge .ge_head .ge_cha img {
+  width: 0.68rem;
+  height: 0.68rem;
+}
+.ge .yanse {
+  padding: 0.8rem 0.4rem;
+}
+.ge .yanse p {
+  font-size: 0.7rem;
+}
+.ge .yanse .yan {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.ge .yanse .yan li {
+  list-style: none;
+  width: 2.4rem;
+  height: 1.2rem;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.15rem;
+  border-radius: 1rem;
+  background: #F7F7F7;
+  margin-right: 0.5rem;
+  border: 0.05rem solid #F7F7F7;
+}
+.ge .yanse .yan .active {
+  box-sizing: border-box;
+  border: 0.05rem solid #ff6699;
+  background: #ffffff;
+  color: #ff6699;
+}
+.ge .shu {
+  padding: 1rem 0.4rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.ge .shu .shu_left {
+  font-size: 0.7rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+}
+.ge .shu .shu_right {
+  display: -webkit-flex;
+  display: flex;
+}
+.ge .shu .shu_right li {
+  list-style: none;
+  height: 1.4rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.ge .shu .shu_right li:nth-child(1),
+.ge .shu .shu_right li:nth-child(3) {
+  width: 1.4rem;
+  border-radius: 50%;
+  border: 0.05rem solid #ff6699;
+  color: #ff6699;
+  font-size: 1rem;
+}
+.ge .shu .shu_right li:nth-child(2) {
+  padding: 0 0.7rem;
+  background: #F7F7F7;
+  margin: 0 0.5rem;
+  line-height: 1.4rem;
+}
+.ge .queding {
+  background: #F7F7F7;
+  overflow: hidden;
+}
+.ge .queding .que {
+  margin: 1rem auto;
+  border-radius: 1rem;
+  width: 10rem;
+  padding: 0.5rem 0;
+  color: #ff6699;
+  font-size: 0.7rem;
+  background: #fff;
+  text-align: center;
+}

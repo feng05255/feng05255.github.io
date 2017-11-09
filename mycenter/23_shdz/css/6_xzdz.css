@@ -1,0 +1,79 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #F2F2F2;
+	max-width: 15rem;
+	margin: 0 auto;
+}
+
+input {
+	padding: 0.5rem 0.5rem;
+	width: 14rem;
+	height: 0.8rem;
+	outline: 0;
+	border: none;
+	font-size: 0.6rem;
+	color: #ccc;
+	border-bottom: 0.02rem solid #ccc;
+	max-width: 15rem;
+}
+.sheng {
+	display: block;
+	box-sizing: border-box;
+	padding: 0.5rem 0.5rem;
+	text-decoration: none;
+	color: #000000;
+	font-size: 0.6rem;
+	background: #fff;
+	border-bottom: 0.02rem solid #ccc;
+}
+.sheng span {
+	display: inline-block;
+	float: right;
+	font-family: simsun;
+	color: #ccc;
+}
+
+
+.foot {
+	margin: 3rem auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.xc {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.3rem 3.5rem;
+	border: 0.05rem solid #FF6699;
+	border-radius: 1rem;
+	font-size: 0.6rem;
+	color: #FF6699;
+	background: #FFF;
+}
+
+.big {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.foot .f_left {
+	padding: 0.3rem 1rem;
+	border-radius: 1rem;
+	font-size: 0.6rem;
+	color: #fff;
+	background: #ccc;
+}
+.foot .f_right {
+	padding: 0.3rem 2rem;
+	border: 0.05rem solid #FF6699;
+	border-radius: 1rem;
+	font-size: 0.6rem;
+	color: #FF6699;
+	background: #FFF;
+	margin-left: 0.5rem;
+}

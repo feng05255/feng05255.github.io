@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<script src="../js/mobile-util.js"></script>
+	<link rel="stylesheet" href="css/3_spxq.css">
+	<title>商品详情</title>
+</head>
+<body>
+	<div class="head">
+		<a href="../../index.html" class="shouye"></a>
+	</div>
+	<div class="h_txt">
+		<p>韩都衣舍秋冬装新款女装长袖宽松版型 镂空图案长袖设计 舒适面料宽松图案镂空针织衫</p>
+		<p> 
+			<span class="pink">￥</span>
+			<span class="big pink">178.00</span>
+			<span class="gray">￥259.00</span>
+		</p>
+	</div>
+	
+	<a href="javascript:;" class="guige" id="xian">
+		选择规格
+		<img src="img/jiantou.png" alt="" />
+	</a>
+	
+	<a href="5_sppl.html" class="guige">
+		宝贝评价（88）
+		<img src="img/jiantou.png" alt="" />
+	</a>
+	
+	<div class="dianpu">
+		<div class="dian_left">
+			<div class="yellow">No.1</div>
+		</div>
+		<div class="dian_right">
+			<div class="jinru">
+				<p>BEAUTI</p>
+				<p>456人关注</p>
+			</div>
+			<div class="guanzhu">
+				<a href="../dianpu/shouye.html">进入店铺</a>
+				<a href="">查看全部商品</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="jixv">
+		继续滑动，查看更多
+	</div>
+	
+	<div class="head">
+	</div>
+	
+	<div class="foot">
+		<a href="">
+			<img src="img/duobian.png" alt="" />
+			收藏
+		</a>
+		<a href="">
+			加入购物车
+		</a>
+		<a href="../../shop/3_tjdd.html">
+			立即购买
+		</a>
+		<a href="../../shop/2_gwcyou.html">
+			<img src="img/gouwuche.png" alt="" />
+			查看购物车
+		</a>
+	</div>
+	
+	<div class="ge" id="ge">
+		<div class="ge_head">
+			<div class="ge_img">
+				<img src="img/ge_img.png" alt="" />
+			</div>
+			<div class="ge_txt">
+				<p>￥<span class="big">178.00</span></p>
+				<p>库存88件</p>
+				<p>已选 ‘白色’ “S”</p>
+			</div>
+			<div class="ge_cha" id="guan">
+				<img src="img/cha.png" alt="" />
+			</div>
+		</div>
+		<div class="yanse">
+			<p>颜色</p>
+			<ul class="yan" id="yan">
+				<li class="active">白色</li>
+				<li>红色</li>
+				<li>粉色</li>
+			</ul>
+		</div>
+		
+		<div class="yanse">
+			<p>尺码</p>
+			<ul class="yan" id="chi">
+				<li class="active">S</li>
+				<li>M</li>
+				<li>L</li>
+			</ul>
+		</div>
+		
+		
+		<div class="shu">
+			<div class="shu_left">
+				购买数量
+			</div>
+			<ul class="shu_right">
+				<li>+</li>
+				<li>1</li>
+				<li>-</li>
+			</ul>
+		</div>
+		
+		<div class="queding">
+			<a href="" class="que">确定</a>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
+<script>
+	var oXian = document.getElementById('xian');
+	var oGe = document.getElementById('ge');
+	
+	var oGuan = document.getElementById('guan');
+	var oYan = document.getElementById('yan');
+	var oChi = document.getElementById('chi');
+	var aLi = oYan.getElementsByTagName('li');
+	var bLi = oChi.getElementsByTagName('li');
+	
+	oXian.onclick = function () {
+		oGe.style.display = 'block';
+	}
+	oGuan.onclick = function () {
+		oGe.style.display = 'none';
+	}
+	
+	for(var i = 0; i<aLi.length; i++){
+		aLi[i].onclick = function () {
+			for(var i = 0; i<aLi.length; i++){
+				aLi[i].className = '';
+			}
+			this.className = 'active';
+		}
+	}
+	
+	for(var i = 0; i<bLi.length; i++){
+		bLi[i].onclick = function () {
+			for(var i = 0; i<bLi.length; i++){
+				bLi[i].className = '';
+			}
+			this.className = 'active';
+		}
+	}
+</script>

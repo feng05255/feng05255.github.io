@@ -1,0 +1,99 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #ffffff;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+.top {
+  margin: 2rem auto;
+}
+.top .zhifu {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.top img {
+  display: block;
+  width: 2.98rem;
+  height: 3.78rem;
+}
+.top span {
+  display: block;
+  height: 3.78rem;
+  line-height: 3.78rem;
+  color: #ff6699;
+  margin-left: 0.5rem;
+}
+.top .shibai {
+  height: 1.6rem;
+  color: #ff6699;
+  margin-left: 0.5rem;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.txt {
+  margin: 0 auto;
+  width: 11.5rem;
+  height: 6.22rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  background: url('../9_zfcg-img/jvxing.png') no-repeat;
+}
+.txt p {
+  line-height: 0.85rem;
+}
+.txt p span {
+  color: #ccc;
+}
+.footer {
+  width: 10rem;
+  height: 1.7rem;
+  background: #fff;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  border: 0.03rem solid #FE6699;
+  border-radius: 2rem;
+  font-size: 0.6rem;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.7rem;
+  color: #FE6699;
+  text-decoration: none;
+  display: block;
+}

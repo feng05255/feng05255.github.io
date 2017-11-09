@@ -1,0 +1,117 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #F2F2F2;
+	max-width: 15rem;
+	margin: 0 auto;
+}
+
+.dizhi {
+	padding: 0.5rem;
+	border-bottom: 0.02rem solid #ccc;
+	background: #fff;
+}
+.dizhi p:nth-child(1) {
+	font-size: 0.6rem;
+}
+.dizhi p:nth-child(2) {
+	font-size: 0.55rem;
+	color: rgba(0,0,0,.7);
+	margin-top: 0.3rem;
+}
+.dizhi .moren {
+	margin-top: 0.5rem;
+	background: #F7F7F7;
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.05rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.dizhi .moren .left {
+	color: rgba(0,0,0,.7);
+	font-size: 0.6rem;
+	display: -webkit-flex;
+	display: flex;
+}
+.dizhi .moren .left span {
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	-webkit-align-self: center;
+	align-self: center;
+	margin-right: 0.2rem;
+	background: #FF6699 url('../img/nike.png') no-repeat center center;
+	background-size: 0.4rem 0.3rem;
+}
+
+.dizhi .moren .right {
+	font-size: 0.6rem;
+	display: -webkit-flex;
+	display: flex;
+	
+}
+.dizhi .moren .right a {
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+}	
+.dizhi .moren .right a .xiu {
+	
+}
+
+.dizhi .moren .right span {
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+	-webkit-align-self: center;
+	align-self: center;
+	margin-right: 0.2rem;
+}
+.dizhi .moren .right .xiugai {
+	background: url('../img/xiugai.png') no-repeat center center;
+	background-size: 0.7rem 0.7rem;
+}
+.dizhi .moren .right .shanchu {
+	background: url('../img/shanchu.png') no-repeat center center;
+	background-size: 0.7rem 0.7rem;
+	margin-left: 0.7rem;
+}
+
+.none {
+	border-bottom: none;
+}
+
+.dizhi .moren .left .gray {
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	-webkit-align-self: center;
+	align-self: center;
+	margin-right: 0.2rem;
+	background: #ccc;
+}
+
+.foot {
+	margin: 3rem auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.xc {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.3rem 3.5rem;
+	border: 0.05rem solid #FF6699;
+	border-radius: 1rem;
+	font-size: 0.6rem;
+	color: #FF6699;
+	background: #FFF;
+}

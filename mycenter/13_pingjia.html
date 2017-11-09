@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>评价</title>
+	<script src="js/mobile-util.js"></script>
+	<link rel="stylesheet" href="css/13_pingjia.css" />
+</head>
+<body>
+	<div class="box">
+		<div class="left">
+			<img src="13_pingjia-img/aa.png" alt="" />
+		</div>
+		<div class="right">
+			<p>韩都衣舍秋冬装新款女装长袖宽松版型...</p>
+			<p id="big">
+				<span>评价：</span>
+				<img src="13_pingjia-img/xingxing.png" alt="" onclick="changeImages()">
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+			</p>
+		</div>
+	</div>
+	
+	<div class="txt">
+		<textarea name="" rows="3" cols="10" placeholder="请写下对宝贝的评价~"></textarea>
+	</div>
+	
+	<div class="box">
+		<div class="tian">
+			<img src="13_pingjia-img/xiangji.png" alt="" />
+			最多3张
+		</div>
+	</div>
+	
+	
+	<div class="box">
+		<div class="left">
+			<img src="13_pingjia-img/aa.png" alt="" />
+		</div>
+		<div class="right">
+			<p>韩都衣舍秋冬装新款女装长袖宽松版型...</p>
+			<p id="big">
+				<span>评价：</span>
+				<img src="13_pingjia-img/xingxing2.png" alt="" onclick="changeImages()">
+				<img src="13_pingjia-img/xingxing2.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+				<img src="13_pingjia-img/xingxing.png" alt="" >
+			</p>
+		</div>
+	</div>
+	
+	<div class="txt">
+		<textarea name="" rows="3" cols="10" placeholder="请写下对宝贝的评价~"></textarea>
+	</div>
+	
+	<div class="box">
+		<div class="tian">
+			<img src="13_pingjia-img/xiangji.png" alt="" />
+			最多3张
+		</div>
+		<div class="jia">
+			<img src="13_pingjia-img/aa.png" alt="" />
+		</div>
+		<div class="jia">
+			<img src="13_pingjia-img/aa.png" alt="" />
+		</div>
+	</div>
+	
+	<div class="btn">提交评价</div>
+	
+</body>
+</html>
+<script>
+	function changeImages () {
+		var big = document.getElementById('big');
+		var aImg = big.getElementsByTagName('img');
+		
+		if(aImg.src.match('xingxing')){
+			aImg.src = '13_pingjia-img/xingxing2.png';
+		}else{
+			aImg.src = '13_pingjia-img/xingxing.png';
+		}
+	}
+</script>

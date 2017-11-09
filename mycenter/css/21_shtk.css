@@ -1,0 +1,115 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  background: #F2F2F2;
+  padding-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.top {
+  margin-top: 0.7rem;
+  padding: 0.7rem;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-bottom: 0.02rem solid #ccc;
+}
+.top .left {
+  font-size: 0.6rem;
+}
+.top .right span {
+  font-size: 0.6rem;
+  color: #FF679A;
+  line-height: 1.6rem;
+  display: block;
+}
+.main {
+  padding: 0.7rem;
+  background-color: #fff;
+  border-bottom: 0.02rem solid #ccc;
+  display: -webkit-flex;
+  display: flex;
+}
+.main .logo img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.main .txt {
+  margin-left: 0.3rem;
+}
+.main .txt p {
+  font-size: 0.6rem;
+  width: 10.7rem;
+  height: 0.8rem;
+}
+.main .txt p:nth-child(2) {
+  color: #ccc;
+}
+.main .txt p:nth-child(3) {
+  color: #FF679A;
+}
+.main .you {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-left: 0.15rem;
+}
+.main .you img {
+	width: 0.26rem;
+	height: 0.48rem;
+}
+.btn {
+  padding: 0.7rem;
+  background-color: #fff;
+  font-size: 0.6rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.btn .pink {
+  color: #FF679A;
+}
+.btn p {
+  font-size: 0.55rem;
+}
+.no {
+  margin: 0;
+}

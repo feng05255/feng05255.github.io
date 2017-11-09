@@ -1,0 +1,96 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  background: #fff;
+  padding-bottom: 4rem;
+}
+.box {
+  box-sizing: border-box;
+  padding: 0.7rem 0.5rem;
+  background: #fff;
+}
+.box p {
+  margin-top: 0.7rem;
+}
+.box p select {
+  width: 10rem;
+  padding: 0 0.8rem;
+  height: 1rem;
+  background-color: #f2f2f2;
+  outline: 0;
+  font-size: 0.5rem;
+  border: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #f2f2f2 url('../16_gzsp-img/select-arrow.png') no-repeat 9.1rem center;
+  background-size: 0.8rem 0.8rem;
+}
+.box p select option {
+  font-size: 0.3rem;
+}
+.box p input {
+  box-sizing: border-box;
+  width: 10rem;
+  padding: 0 0.8rem;
+  height: 1rem;
+  background-color: #f2f2f2;
+  outline: 0;
+  font-size: 0.5rem;
+  border: none;
+}
+.content {
+  padding-top: 2rem;
+}
+.content img {
+  display: block;
+  width: 8.72rem;
+  height: 8.8rem;
+  margin: 0 auto;
+}
+.footer {
+  width: 10rem;
+  height: 1.7rem;
+  background: #fff;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  border: 0.03rem solid #FE6699;
+  border-radius: 2rem;
+  font-size: 0.6rem;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.7rem;
+  color: #FE6699;
+  text-decoration: none;
+  display: block;
+}

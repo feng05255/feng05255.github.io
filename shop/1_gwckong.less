@@ -1,0 +1,76 @@
+@pink:#FF6699;
+@white:#ffffff;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #F2F2F2;
+    max-width: 15rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+    padding-bottom: 3rem;
+}
+
+.top {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+    width: 8.36rem;
+    height: 0.74rem;
+}
+.content {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 4.84rem;
+    height: 4.56rem;
+}
+
+
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 15rem;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    .foot {
+        padding: 0.2rem 0;
+        height: 2rem;
+        -webkit-flex: 1;
+        flex: 1;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        position: relative;
+        a {
+            width: 100%;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            color: #ccc;
+            p {
+                font-size: 0.5rem;
+            }
+            .pink {
+                color: @pink;
+            }
+        }
+        img {
+            width: 1rem;
+            height: 0.9rem;
+            display: block;
+            margin: 0 auto;
+            padding-top: 0.2rem;
+            margin-bottom: 0.1rem;
+        }
+    }
+}

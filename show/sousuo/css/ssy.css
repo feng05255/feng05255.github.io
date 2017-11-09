@@ -1,0 +1,214 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #F2F2F2;
+    max-width: 15rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+    padding-bottom: 3rem;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+}
+
+.sou {
+	background: #fff;
+	padding: 0.3rem 0.5rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.sou .sou_left {
+	width: 10.5rem;
+	background-color: #F2F2F2;
+	border-radius: 1rem;
+	padding: 0.2rem 0.5rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.sou .sou_left .fang {
+	width: 0.44rem;
+	height: 0.48rem;
+	margin-right: 0.3rem;
+}
+.sou .sou_left input[type=text] {
+	font-size: 0.5rem;
+	width: 8rem;
+	border: none;
+	background: #F2F2F2;
+	outline: 0;
+}
+.sou .sou_right input[type=button] {
+	color: #fff;
+	font-size: 0.5rem;
+	border: none;
+	padding: 0.2rem 0.4rem;
+	border-radius: 1rem;
+	background: #FF6699;
+}
+
+.content {
+	margin-top: 4rem;
+	color: #FF6699;
+	text-align: center;
+}
+.girl {
+	width: 3.26rem;
+	height: 4.14rem;
+	margin: 1rem auto;
+}
+.girl img {
+	width: 3.26rem;
+	height: 4.14rem;
+}
+
+
+.xihuan {
+	margin-top: 0.4rem;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-justify-content: space-between;
+  	justify-content: space-between;
+  	padding: 0 0.4rem;
+  	margin-bottom: 0.4rem;
+}
+.xihuan img {
+  width: 6.48rem;
+  height: 6.48rem;
+}
+.xihuan .liek_txt {
+  padding: 0.5rem 0.25rem;
+  font-size: 0.48rem;
+  position: relative;
+}
+.xihuan .liek_txt p:nth-child(1) {
+  font-size: 0.48rem;
+}
+.xihuan .liek_txt p:nth-child(2) {
+  font-size: 0.56rem;
+  margin-top: 0.2rem;
+  color: #ff6699;
+}
+.xihuan .liek_txt .top {
+	position: absolute;
+	right: 0.2rem;
+	bottom: 3rem;
+	width: 2rem;
+  	height: 2rem;
+  	border-radius: 50%;
+  	background: #fff;
+  	opacity: 0.8;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-align-items: center;
+  	align-items: center;
+}
+.xihuan .liek_txt .top img {
+	display: block;
+  	width: 0.8rem;
+  	height: 0.76rem;
+  	margin: 0 auto;
+}
+.liang {
+    position: absolute;
+    right: 0.4rem;
+    top: 0.4rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #FF6699;;
+    color: #fff;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.xihuan .liek_txt .bott {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0.02rem solid #ccc;
+  right: 0.2rem;
+  bottom: 0;
+  box-shadow: 0.05rem 0.05rem 0.1rem rgba(0, 0, 0, 0.1);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.xihuan .liek_txt .bott img {
+  	display: block;
+  	width: 0.66rem;
+  	height: 1.12rem;
+  	margin: 0 auto;
+}
+
+.xihuan .like_left {
+  padding: 0.2rem;
+  background: #ffffff;
+  width: 6.5rem;
+}
+.xihuan .like_right {
+  padding: 0.2rem;
+  background: #ffffff;
+  width: 6.5rem;
+}
+.daren {
+  margin-top: 0.5rem;
+}
+
+
+.dao {
+	padding: 0.5rem;
+	background: #fff;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.dao>a {
+	display: block;
+	text-decoration: none;
+	font-size: 0.7rem;
+	color: #ccc;
+	display: -webkit-flex;
+	display: flex;
+	width: 2.5rem;
+	height: 1rem;
+}
+.dao img{
+	width: 0.54rem;
+	height: 0.28rem;
+}
+.dao span {
+	display: block;
+	margin-left: 0.2rem;
+}
+.dao .pink {
+	color: #FF6699;
+}
+.dao .dc {
+	position: relative;
+}
+.dao .dc .j_pink {
+	width: 0.54rem;
+	height: 0.28rem;
+	position: absolute;
+	top: 0.15rem;
+	right: 0.4rem;
+}
+.dao .dc .j_gray {
+	width: 0.54rem;
+	height: 0.28rem;
+	position: absolute;
+	bottom: 0.15rem;
+	right: 0.4rem;
+}

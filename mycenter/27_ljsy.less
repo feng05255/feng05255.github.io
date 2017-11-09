@@ -1,0 +1,40 @@
+@border:0.02rem solid #ccc;
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 15rem;
+    margin: 0 auto;
+    font-size: 0.6rem;
+    background: #F2F2F2;
+    padding-bottom: 4rem;
+}
+
+.box {
+    margin: 0.5rem auto;
+    width: 95%;
+    background: #fff;
+    
+    .mind {
+        padding: 0.5rem;
+        border-bottom: @border;
+        .gray {
+            font-size: 0.5rem;
+            float: right;
+            color: #ccc;
+        }
+        p {
+            font-size: 0.5rem;
+            color: #ccc;
+            margin-top: 0.1rem;
+        }
+    }
+}
+
+.box .none {
+    border-bottom: none;
+}

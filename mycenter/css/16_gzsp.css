@@ -1,0 +1,84 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  background: #F2F2F2;
+}
+.main {
+  padding: 0.7rem;
+  background-color: #fff;
+  border-bottom: 0.02rem solid #ccc;
+  display: -webkit-flex;
+  display: flex;
+}
+.main a {
+  display: block;
+  display: -webkit-flex;
+  display: flex;
+  text-decoration: none;
+  color: #000;
+}
+.main .logo img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.main .txt {
+  margin-left: 0.3rem;
+}
+.main .txt p {
+  font-size: 0.6rem;
+  width: 10.7rem;
+  height: 0.8rem;
+}
+.main .txt p:nth-child(2) {
+  color: #FF679A;
+}
+.main .txt .hui {
+  font-size: 0.55rem;
+  color: #ccc;
+}
+.main .txt p:nth-child(3) {
+  width: 2rem;
+  color: #ccc;
+  float: right;
+}
+.main .txt p:nth-child(3) img {
+  width: 0.62rem;
+  height: 0.54rem;
+}
+.main .txt .pink {
+  color: #FE6699;
+  float: right;
+}
+.no_border {
+  border-bottom: none;
+}

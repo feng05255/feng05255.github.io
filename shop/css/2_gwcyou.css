@@ -1,0 +1,234 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+.che {
+  display: -webkit-flex;
+  display: flex;
+  padding: 0.5rem;
+  background: #fff;
+  border-bottom: 0.02rem solid #ccc;
+}
+.che .gou1 {
+  height: 3.02rem;
+  padding: 0 0.5rem;
+  display: -webkit-flex;
+  display: flex;
+}
+.che .gou1 .circle {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #ff6699 url('../2_gwcyou-img/nike.png') no-repeat center center;
+  background-size: 0.5rem 0.4rem;
+  -webkit-align-self: center;
+  align-self: center;
+}
+.che .gou1 .gray {
+  background: #ccc;
+}
+.che .gou2 {
+  width: 3.02rem;
+  height: 3.02rem;
+  margin-left: 0.5rem;
+}
+.che .gou2 img {
+  width: 3.02rem;
+  height: 3.02rem;
+}
+.che .gou3 {
+  margin-left: 0.5rem;
+  height: 3.02rem;
+}
+.che .gou3 p:nth-child(2) {
+  color: #ff6699;
+  margin-top: 0.1rem;
+}
+.che .gou3 .quantity {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+.che .gou3 .quantity .q_left {
+  display: -webkit-flex;
+  display: flex;
+}
+.che .gou3 .quantity .q_left .lefta {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.05rem solid #ff6699;
+  color: #ff6699;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 0.85rem;
+}
+.che .gou3 .quantity .q_left .leftb {
+  padding: 0 0.5rem;
+  height: 0.8rem;
+  margin: 0.1rem 0.3rem 0 0.3rem;
+  background: #F7F7F7;
+}
+.che .gou3 .quantity .q_left .leftc {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.05rem solid #ff6699;
+  color: #ff6699;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 0.85rem;
+}
+.che .gou3 .quantity .q_right {
+  text-decoration: none;
+  color: #000;
+  margin-top: 0.3rem;
+}
+.che .gou3 .quantity .q_right span {
+  color: #ccc;
+}
+.che .gou3 .quantity .q_right span img {
+  width: 0.62rem;
+  height: 0.54rem;
+}
+.pink {
+  color: #ff6699;
+}
+.jiesuan {
+  position: fixed;
+  bottom: 2.4rem;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: flex;
+  max-width: 15rem;
+  margin: 0 auto;
+}
+.jiesuan .jie_left {
+  -webkit-flex: 2;
+  flex: 2;
+  padding: 0.5rem;
+  background: #ffffff;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 1.66rem;
+}
+.jiesuan .jie_left .quanxuan {
+  display: -webkit-flex;
+  display: flex;
+  color: rgba(0, 0, 0, 0.5);
+}
+.jiesuan .jie_left .quanxuan .gray {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  -webkit-align-self: center;
+  align-self: center;
+  background: #ccc;
+  margin-right: 0.2rem;
+}
+.jiesuan .jie_left .heji {
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+}
+.jiesuan .jie_right {
+  text-decoration: none;
+  display: block;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 0.5rem;
+  background: #ff6699;
+  line-height: 1.66rem;
+  color: #ffffff;
+  font-size: 0.7rem;
+  text-align: center;
+  position: relative;
+}
+.jiesuan .jie_right .sanjiao {
+  border-top: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  border-left: 0.3rem solid #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.25rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 15rem;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+}
+.footer .foot {
+  padding: 0.2rem 0;
+  height: 2rem;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+  position: relative;
+}
+.footer .foot a {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #ccc;
+}
+.footer .foot a p {
+  font-size: 0.5rem;
+}
+.footer .foot a .pink {
+  color: #ff6699;
+}
+.footer .foot img {
+  width: 1rem;
+  height: 0.9rem;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+  margin-bottom: 0.1rem;
+}

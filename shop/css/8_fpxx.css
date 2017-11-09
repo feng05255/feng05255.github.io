@@ -1,0 +1,118 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+  max-width: 15rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-bottom: 3rem;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+.fapiao {
+  padding: 0.5rem;
+  background: #ffffff;
+  border-bottom: 0.02rem solid #ccc;
+}
+.fapiao .leixing {
+  padding-bottom: 0.5rem;
+}
+.fapiao .lei {
+  padding: 0.5rem;
+  background: #F7F7F7;
+  display: -webkit-flex;
+  display: flex;
+}
+.fapiao .lei .lei_a {
+  width: 2.5rem;
+  margin-right: 1rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.fapiao .lei .lei_a .pink {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #ff6699 url('../3_tjdd-img/nike.png') no-repeat center center;
+  background-size: 0.6rem 0.4rem;
+  margin-right: 0.2rem;
+}
+.fapiao .lei .lei_b {
+  width: 2.5rem;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.fapiao .lei .lei_b .gray {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #ccc;
+  margin-right: 0.2rem;
+}
+.fapiao .lei .lei_c {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.fapiao .lei .lei_c input {
+  border: none;
+  box-sizing: border-box;
+  padding: 0.2rem 0;
+  font-size: 0.6rem;
+  text-align: center;
+}
+.none {
+  border-bottom: none;
+}
+.footer {
+  width: 10rem;
+  height: 1.7rem;
+  background: #fff;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  border: 0.03rem solid #FE6699;
+  border-radius: 2rem;
+  font-size: 0.6rem;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.7rem;
+  color: #FE6699;
+  text-decoration: none;
+  display: block;
+}
